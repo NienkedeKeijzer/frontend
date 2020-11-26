@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://css-tricks.com/
 2. -bron 2-
 3. -...-
 
@@ -38,21 +38,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Flexbox maakt me oprecht agressief. En alles wat met positioneren te maken heeft ook. Ik doe oprecht me best, maar dit alles test mijn geduld wel. Het lukt enigzins. Het is een behoorlijke uitdaging om niet teveel classes te gebruiken maar veel die nth te gebruiken. Als het team van CSS tricks kon zien hoe vaak en waarvoor ik op hun website zit, zullen ze ondertussen wedjes hebben lopen met wat ik nu weer opzoek of voor de hoeveelste keer alweer hetzelfde. Het is leuk als het lukt, maar het mag wat sneller lukken... Ondertussen ziet mijn website er niet uit op mobiel maar is web best okay..?
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/homepagvg1.png" alt="homepagina voortgang 1">
+Zoals ik al zei: het is niet best, maar het is iets. Loop erg te strugglen met flexbox en positioneren, en dat zie je hier erg snel terug komen. Bij lange na niet tevreden cover
+
+<img src="images/detailpagvg2" alt="detailpagina voortgang 1">
+Ja. Dit is gewoon heel hard huilen en uitstellen. Heb hier niet veel over te zeggen
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Nienke         | Kai                | Lisa         | Jeroen           |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| overallook     | en dit             | en ik dit    | en dan ik dat    |
+| semantiek      | dit als er tijd is | nog een punt | dit wil ik zeker |
+| beste aanpak   | ...                | ...          | ...              |
 
 ### Verslag van meeting
 

@@ -1,25 +1,26 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-body{
-  font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #6f6f6f;
-    background-color: #fff;
-}
-
-
-nav{
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6f6f6f;
+  background-color: #fff;
+  text-align: center;
+  max-width: 100%;
 
 }
 
-nav ul li{
+nav {
+  text-align: left;
+}
+
+nav ul li {
   list-style: none;
-
 }
 
 nav ul li.btnlogo {
@@ -31,5 +32,136 @@ nav ul li.btnlogo {
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
+}
 
+h1, h2 {
+  color: black;
+}
+
+
+
+ol li {
+  list-style: none;
+}
+
+button {
+  color: #6f6f6f;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 10px ;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+button.voltooid {
+  color: white;
+  background: #1c6f65;
+  text-shadow: none;
+  padding: 4px 15px;
+}
+
+button.toevoegen {
+  border-radius: 40%;
+  padding: 20px;
+}
+
+button.gratisvb {
+  background: black;
+  color: white;
+  border-radius: 40px;
+  text-shadow: none;
+  font-size: 16px;
+  padding: 15px 24px;
+}
+
+button.allepaid {
+  color: #18403a;
+  background: rgba(34,34,34,.12);
+  font-size: 16px;
+  padding: 13px 20px;
+  border-radius: 50px;
+  border: none;
+  text-shadow: none;
+}
+
+/* section:nth-of-type(2){
+  background-color: #f2fdfd; */
+
+section {
+  padding: 0px 100px;
+}
+
+section:first-of-type{
+  display: flex;
+  justify-content: flex-start;
+}
+
+section:first-of-type h1{
+  flex-grow: 1;
+
+}
+
+section:first-of-type img:first-of-type{
+
+  max-width: 30px;
+
+
+}
+
+section.blok {
+  padding: 40px 0px 20px 16px;
+}
+
+section.blok h2 {
+  text-align: justify;
+  padding-left: 10%;
+}
+
+section.blok ol li {
+  display: inline-flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 15px 10px;
+
+}
+
+section.blok ol li img:nth-of-type(odd) {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 14px 2px rgba(0,0,0,0.29);
+  margin-bottom: 5px;
+}
+
+section.blok ol li img:nth-of-type(even) {
+  position: relative;
+  top: 20px;
+}
+
+section.blok ol li button {
+
+  max-width: 40%;
+
+}
+
+footer {}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer ul li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+footer ul li:nth-child(n+10) {
+  color: #C0C0C0;
 }
