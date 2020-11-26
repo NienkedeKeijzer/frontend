@@ -45,7 +45,7 @@ Flexbox maakt me oprecht agressief. En alles wat met positioneren te maken heeft
 <img src="images/homepagvg1.png" alt="homepagina voortgang 1">
 Zoals ik al zei: het is niet best, maar het is iets. Loop erg te strugglen met flexbox en positioneren, en dat zie je hier erg snel terug komen. Bij lange na niet tevreden cover
 
-<img src="images/detailpagvg2.png" alt="detailpagina voortgang 1">
+<img src="images/detailpagvg1.png" alt="detailpagina voortgang 1">
 Ja. Dit is gewoon heel hard huilen en uitstellen. Heb hier niet veel over te zeggen
 
 ### Agenda voor meeting
