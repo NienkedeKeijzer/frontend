@@ -44,7 +44,7 @@ Homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/news.png" width="375px" alt="Nieuwspagina afbeelding">
+<img src="images/nieuws.png" width="375px" alt="Nieuwspagina afbeelding">
  
 </details>
 
