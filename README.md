@@ -40,11 +40,11 @@ https://www.nbthieves.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="images/home.jpg" width="375px" alt="Homepagina afbeelding">
+<img src="images/home.png" width="375px" alt="Homepagina afbeelding">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/news.jpg" width="375px" alt="Nieuwspagina afbeelding">
+<img src="images/news.png" width="375px" alt="Nieuwspagina afbeelding">
  
 </details>
 
