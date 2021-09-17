@@ -19,6 +19,7 @@ a.wittebut {
   text-decoration: none;
   color: black;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 a.zwartebut {
@@ -27,15 +28,20 @@ a.zwartebut {
   border-radius: 5px;
   border: solid 1px white;
   text-decoration: none;
-  color: white;
+  background-color: white;
+  color: black!important;
   font-weight: 100;
+  text-transform: uppercase;
 }
+
 
 /* Header opmaak */
 header {
   display: flex;
-  background-color: lightgrey;
-  
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  width: 100%;
 }
 
 header a {
@@ -48,36 +54,106 @@ header img:first-of-type {
   width: 100%;
 }
 
-#burgermenu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* margin: 1em; */
-
-}
-
-#burgermenu img{
-  height: 10%;
-  width: 2em;
-}
-
 header nav {
   display: none;
+}
 
+  /* Opmaak van hamburgermenu */
+#burgermenu {
+  position: relative;
+  width: 20%;
+  margin: 1em;
+}
+
+#burgermenu img:first-of-type{
+  position: absolute;
+  right: .85em;
+  height: 50%;
+  width: 2.5em;
+}
+
+#burgermenu img:nth-of-type(2){
+  position: absolute;
+  right: .85em;
+  top: .75em;
+  height: 50%;
+  width: 2.5em;
+}
+
+#burgermenu img:nth-of-type(3){
+  position: absolute;
+  right: .85em;
+  top: 1.5em;
+  height: 50%;
+  width: 2.5em;
 }
 
 
-button:first-of-type {
-  position: sticky;
-}
+
+
+
+
 /* Main opmaak */
+  /* New music tab */
 #newmusichome {
 
+}
+
+#newmusichome ol {
+  list-style: none;
+  padding: 0;
+}
+
+#newmusichome li {
+  width: 100%;
+  position: relative;
+}
+
+#newmusichome img {
+  width: 100%;
+  height: 100%;
+}
+
+#newmusichome a:nth-of-type(2) {
+  position: absolute;
+  left: 1.5em;
+  top: 13em;
+  text-decoration: none;
+  margin: .25em;
+  padding: .5em 1.5em;
+}
+
+#newmusichome a:nth-of-type(3) {
+  position: absolute;
+  left: 2.5em;
+  top: 17em;
+  text-decoration: none;
+  margin: .25em;
+  padding: .5em 1.5em;
+}
+
+#newmusichome a:nth-of-type(4) {
+  position: absolute;
+  right: 1.5em;
+  top: 13em;
+  text-decoration: none;
+  margin: .25em;
+  padding: .5em 1.5em;
+}
+
+#newmusichome a:nth-of-type(5) {
+  position: absolute;
+  right: 2.5em;
+  top: 17em;
+  text-decoration: none;
+  margin: .25em;
+  padding: .5em 1.5em;
 }
 
 iframe:first-of-type{
   width: 100%;
 }
+
 
   /* Releases tab */
 #releaseshome {
@@ -95,6 +171,7 @@ iframe:first-of-type{
 h2:first-of-type {
 font-size: 40px;
 }
+
 
   /* Tour dates tab */
 #tourdateshome {
@@ -143,11 +220,19 @@ font-size: 40px;
   margin: 20px;
 }
 
+
   /* News tab */
 #newshome {
   text-align: center;
 }
 
+
+  /* Video tab */
+#videoshome {
+  text-align: center;
+}
+
+  /* slider opmaak voor nieuws en videos */
 #newshome .slider ol{
   margin: 40px 0;
   width: 90%;
@@ -166,4 +251,115 @@ font-size: 40px;
   max-height: 170px;
 }
 
+#videoshome .slider ol {
+  margin: 40px 0;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+#videoshome li {
+  width: 100%;
+  list-style: none;
+}
+
+#videoshome iframe {
+  width: 300px;
+  max-height: 170px;
+}
+
+  /* Nieuwe releases tab */
+#newreleaseshome {
+  text-align: center;
+}
+
+.newreleases {
+  padding: 3em 2em;
+}
+
+/* .newreleases:hover {
+  color: rgba(255, 74, 61, 0.678);
+} */
+
+.newreleases:first-of-type {
+  background-color: lightgrey;
+}
+
+.newreleases:last-of-type {
+  background-color: #232323;
+}
+
+.newreleases img {
+  width: 80%;
+}
+  
+.hovervlak {
+  display: none;
+}
+
+
+  /* Store tab */
+#storehome {
+  text-align: center;
+  margin: 3em 0em;
+  text-transform: uppercase;
+}
+
+#storehome h2 {
+  font: lighter;
+  font-size: 1.8em;
+  letter-spacing: .4em;
+}
+
+#storehome ol {
+  list-style: none;
+  padding: 0;
+}
+
+#storehome li {
+  margin: 4em 2em;
+}
+
+#storehome img {
+  width: 80%;
+}
+
+
 /* Footer opmaak */
+footer nav {
+  background-color: #232323;
+  
+}
+
+footer ol {
+  list-style: none;
+  padding: 1em 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+#nbtid {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 1.5em 1.8em;
+}
+
+#nbtid a{
+  text-decoration: none;
+  color: black;
+}
+
+#copyright {
+  text-align: center;
+  padding: 1em;
+}
+
+#copyright a{
+font-size: 0.15em;
+text-decoration: none;
+color: black;
+
+}
