@@ -3,3 +3,145 @@
   box-sizing:border-box;  
 }
 
+/* Algemene styling */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+a.wittebut {
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+
+a.zwartebut {
+  padding: 10px 30px;
+  margin: 20px;
+  border-radius: 5px;
+  border: solid 1px white;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+
+/* Header opmaak */
+header {
+  position: relative;
+  display: flex;
+}
+
+h1 {
+  position: sticky;
+  
+}
+nav {
+  position: sticky;
+}
+
+button:first-of-type {
+  position: sticky;
+}
+/* Main opmaak */
+#newmusichome {
+
+}
+
+iframe:first-of-type{
+  width: 100%;
+}
+
+  /* Releases tab */
+#releaseshome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#releaseshome img {
+  width: 90%;
+}
+
+h2:first-of-type {
+font-size: 40px;
+}
+
+  /* Tour dates tab */
+#tourdateshome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #232323;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#tourdateshome ol {
+  list-style: none;
+  padding: 0px 20px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#tourdateshome li {
+  padding-bottom: 10px;
+}
+
+#tourdateshome li:nth-of-type(2) {
+  border-top: solid 2px #3a3a3a;
+  border-bottom: solid 2px #3a3a3a;
+}
+/* 
+#tourdateshome a:nth-last-of-type(n+2) {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+} */
+
+#tourdateshome p:first-of-type {
+  text-transform: uppercase;
+  font: lighter;
+  font-weight: 300;
+  margin: 20px;
+}
+
+#tourdateshome p:nth-child(n+2) {
+  font-weight: 100;
+  font: lighter;
+  margin: 20px;
+}
+
+  /* News tab */
+#newshome {
+  text-align: center;
+}
+
+#newshome .slider ol{
+  margin: 40px 0;
+  width: 90%;
+  height: 330px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+#newshome li {
+  width: 100%;
+  list-style: none;
+}
+
+#newshome img {
+  width: 300px;
+  max-height: 170px;
+}
+
+/* Footer opmaak */
