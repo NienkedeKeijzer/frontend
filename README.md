@@ -58,7 +58,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschermen.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschetsen.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -94,10 +94,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Het is belangrijk dat ik in mijn HTML meer comments toevoeg voor duidelijkheid en leesbaarheid van de code
+- 
 
 </details>
 

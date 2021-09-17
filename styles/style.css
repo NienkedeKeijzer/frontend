@@ -33,17 +33,39 @@ a.zwartebut {
 
 /* Header opmaak */
 header {
-  position: relative;
   display: flex;
-}
-
-h1 {
-  position: sticky;
+  background-color: lightgrey;
   
 }
-nav {
-  position: sticky;
+
+header a {
+  width: 70%;
+  height: 70%;
+  margin: .5em;
 }
+
+header img:first-of-type {
+  width: 100%;
+}
+
+#burgermenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 1em; */
+
+}
+
+#burgermenu img{
+  height: 10%;
+  width: 2em;
+}
+
+header nav {
+  display: none;
+
+}
+
 
 button:first-of-type {
   position: sticky;
@@ -100,13 +122,13 @@ font-size: 40px;
   border-top: solid 2px #3a3a3a;
   border-bottom: solid 2px #3a3a3a;
 }
-/* 
-#tourdateshome a:nth-last-of-type(n+2) {
+
+#tourdateshome a {
   text-decoration: none;
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
   text-transform: uppercase;
-} */
+}
 
 #tourdateshome p:first-of-type {
   text-transform: uppercase;
