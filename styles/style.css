@@ -11,7 +11,7 @@ body {
   margin: 0;
 }
 
-a.wittebut {
+.wittebut {
   padding: 10px 30px;
   margin: 20px;
   border-radius: 5px;
@@ -20,9 +20,10 @@ a.wittebut {
   color: black;
   font-weight: 100;
   text-transform: uppercase;
+  text-align: center;
 }
 
-a.zwartebut {
+.zwartebut {
   padding: 10px 30px;
   margin: 20px;
   border-radius: 5px;
@@ -32,6 +33,7 @@ a.zwartebut {
   color: black!important;
   font-weight: 100;
   text-transform: uppercase;
+  text-align: center;
 }
 
 
@@ -39,9 +41,11 @@ a.zwartebut {
 header {
   display: flex;
   justify-content: space-between;
-  position: sticky;
+  align-items: stretch;
+  position: fixed;
   background-color: white;
   width: 100%;
+  z-index: 1000;
 }
 
 header a {
@@ -51,7 +55,8 @@ header a {
 }
 
 header img:first-of-type {
-  width: 100%;
+  max-width: 100%;
+  max-height: 3.5em;
 }
 
 header nav {
@@ -94,11 +99,11 @@ header nav {
 
 
 /* Main opmaak */
-  /* New music tab */
-#newmusichome {
-
+main {
+  padding-top: 50px;
 }
 
+  /* New music tab */
 #newmusichome ol {
   list-style: none;
   padding: 0;
@@ -109,49 +114,23 @@ header nav {
   position: relative;
 }
 
+#newmusichome div {
+ position: absolute;
+ bottom: 20px;
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
 #newmusichome img {
   width: 100%;
   height: 100%;
 }
 
-#newmusichome a:nth-of-type(2) {
-  position: absolute;
-  left: 1.5em;
-  top: 13em;
-  text-decoration: none;
-  margin: .25em;
-  padding: .5em 1.5em;
-}
-
-#newmusichome a:nth-of-type(3) {
-  position: absolute;
-  left: 2.5em;
-  top: 17em;
-  text-decoration: none;
-  margin: .25em;
-  padding: .5em 1.5em;
-}
-
-#newmusichome a:nth-of-type(4) {
-  position: absolute;
-  right: 1.5em;
-  top: 13em;
-  text-decoration: none;
-  margin: .25em;
-  padding: .5em 1.5em;
-}
-
-#newmusichome a:nth-of-type(5) {
-  position: absolute;
-  right: 2.5em;
-  top: 17em;
-  text-decoration: none;
-  margin: .25em;
-  padding: .5em 1.5em;
-}
-
 iframe:first-of-type{
   width: 100%;
+  min-height: 10em;
 }
 
 
@@ -239,11 +218,13 @@ font-size: 40px;
   height: 330px;
   display: flex;
   overflow-x: scroll;
+  
 }
 
-#newshome li {
+#newshome li, #videoshome li {
   width: 100%;
   list-style: none;
+  margin: 0 2em;
 }
 
 #newshome img {
@@ -259,11 +240,6 @@ font-size: 40px;
   overflow-x: scroll;
 }
 
-#videoshome li {
-  width: 100%;
-  list-style: none;
-}
-
 #videoshome iframe {
   width: 300px;
   max-height: 170px;
@@ -277,10 +253,6 @@ font-size: 40px;
 .newreleases {
   padding: 3em 2em;
 }
-
-/* .newreleases:hover {
-  color: rgba(255, 74, 61, 0.678);
-} */
 
 .newreleases:first-of-type {
   background-color: lightgrey;
@@ -337,7 +309,7 @@ footer ol {
   padding: 1em 1.5em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 0;
 }
 
@@ -361,5 +333,107 @@ footer ol {
 font-size: 0.15em;
 text-decoration: none;
 color: black;
+}
 
+@media (min-width: 480px) {
+  iframe:first-of-type {
+    min-height: 20em;
+  }
+
+  footer ol {
+    margin: 0% 20%;
+  }
+}
+
+@media (min-width: 990px) {
+  header nav {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  header ul {
+    display: flex;
+    margin: 1em;
+    align-items: center;
+  }
+
+  header li {
+    list-style: none;
+    margin: 0 .5em;
+    display: flex;
+    align-self: center;
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .25em;
+    font-weight: 100;
+    text-align: end;
+  }
+
+  #burgermenu {
+    display: none;
+  }
+  
+  #releaseshome {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 4em;
+  }
+
+  #releaseshome img {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    place-self: center stretch;
+  }
+
+  #releaseshome h2 {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    align-self: end;
+    justify-self: center;
+    font-weight: 100;
+    font-size: 3em;
+    margin: 0 0 1em 0;
+  }
+
+  #releaseshome a:first-of-type {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    align-self: start;
+    justify-self: center;
+    margin: 0;
+  }
+
+  #releaseshome a:nth-of-type(2){
+    grid-column: 3 / 5;
+    grid-row: 3 / 4;
+    margin: 0;
+  }
+
+  .wittebut, .zwartebut {
+    letter-spacing: .5em;
+  }
+
+  #videoshome .slider ol {
+    height: 100%;
+  }
+
+  #tourdateshome li {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
+    text-align: start;
+  }
+
+  #tourdateshome a{
+    align-self: center;
+  }
+
+  #storehome ol {
+    display: flex;
+  }
 }
