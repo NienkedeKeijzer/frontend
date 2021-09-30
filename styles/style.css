@@ -18,7 +18,7 @@ body {
   border: solid 1px black;
   text-decoration: none;
   color: black;
-  font-weight: 100;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
 }
@@ -30,8 +30,8 @@ body {
   border: solid 1px white;
   text-decoration: none;
   background-color: white;
-  color: black!important;
-  font-weight: 100;
+  color: black;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 }
@@ -39,19 +39,9 @@ body {
 
 /* Header opmaak */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
   position: fixed;
-  background-color: white;
   width: 100%;
   z-index: 1000;
-}
-
-header a {
-  width: 70%;
-  height: 70%;
-  margin: .5em;
 }
 
 header img:first-of-type {
@@ -59,44 +49,43 @@ header img:first-of-type {
   max-height: 3.5em;
 }
 
-header nav {
+.navheader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: white;
+  width: 100%;
+}
+
+.navheader ul {
+  display: flex;
+  justify-content: space-around;
+  width: 70%; 
+}
+
+.navheader li {
+  list-style: none;
+}
+
+.navheader a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: .1em;
+  font-weight: 200;
+}
+
+.burger {
   display: none;
+  cursor: pointer;
 }
 
-  /* Opmaak van hamburgermenu */
-#burgermenu {
-  position: relative;
-  width: 20%;
-  margin: 1em;
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background: black;
 }
-
-#burgermenu img:first-of-type{
-  position: absolute;
-  right: .85em;
-  height: 50%;
-  width: 2.5em;
-}
-
-#burgermenu img:nth-of-type(2){
-  position: absolute;
-  right: .85em;
-  top: .75em;
-  height: 50%;
-  width: 2.5em;
-}
-
-#burgermenu img:nth-of-type(3){
-  position: absolute;
-  right: .85em;
-  top: 1.5em;
-  height: 50%;
-  width: 2.5em;
-}
-
-
-
-
-
 
 /* Main opmaak */
 main {
@@ -107,12 +96,15 @@ main {
 #newmusichome ol {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 #newmusichome li {
-  width: 100%;
+  width: 100%; 
   position: relative;
-}
+}  
 
 #newmusichome div {
  position: absolute;
@@ -127,6 +119,7 @@ main {
   width: 100%;
   height: 100%;
 }
+
 
 iframe:first-of-type{
   width: 100%;
@@ -184,6 +177,10 @@ font-size: 40px;
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+#tourdateshome .zwartebut {
+  color: black;
 }
 
 #tourdateshome p:first-of-type {
@@ -269,7 +266,7 @@ font-size: 40px;
 .hovervlak {
   display: none;
 }
-
+  
 
   /* Store tab */
 #storehome {
@@ -297,6 +294,52 @@ font-size: 40px;
   width: 80%;
 }
 
+
+
+/* Newspagina */
+
+#news {
+  background: lightgrey;
+}
+
+#news h2 {
+  background: lightgrey;
+  padding: 3em 0 2.5em 0;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: .2em;
+  margin: 0;
+}
+
+#newsarticles {
+  text-align: center;
+  background: lightgrey;
+}
+
+#newsarticles ol{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#newsarticles li {
+ background: white;
+ width: 80%;
+ margin: 1em 5em;
+}
+
+#newsarticles img {
+  max-width: 100%;
+}
+
+#newsarticles h3, #newsarticles p {
+  font-weight: 100;
+  letter-spacing: .2em;
+  padding: .5em 0;
+}
 
 /* Footer opmaak */
 footer nav {
@@ -346,37 +389,6 @@ color: black;
 }
 
 @media (min-width: 990px) {
-  header nav {
-    display: flex;
-    width: 75%;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  header ul {
-    display: flex;
-    margin: 1em;
-    align-items: center;
-  }
-
-  header li {
-    list-style: none;
-    margin: 0 .5em;
-    display: flex;
-    align-self: center;
-  }
-
-  header a {
-    text-decoration: none;
-    color: black;
-    letter-spacing: .25em;
-    font-weight: 100;
-    text-align: end;
-  }
-
-  #burgermenu {
-    display: none;
-  }
   
   #releaseshome {
     display: grid;
@@ -436,4 +448,44 @@ color: black;
   #storehome ol {
     display: flex;
   }
+
+  #newsarticles li {
+    width: 50%;
+  }
+
+  .wittebut {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 870px) {
+  .navheader ul {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 3.5em;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .navheader a:nth-of-type(n+2) {
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: .3em;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+.navheader.navactive ul {
+  transform: translateX(0%);
 }

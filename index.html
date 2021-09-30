@@ -14,15 +14,8 @@
 
 <body>
 	<header>
-		<a href="index.html"><img src="images/logo.png" alt="Logo band"></a>
-		<!-- Navigatie nog niet zichtbaar vanaf eerste oog
-		Er moet eerst op het menu geklikt worden. -->
-		<section id="burgermenu">
-			<img src="images/menulijn.png" alt="">
-			<img src="images/menulijn.png" alt="">
-			<img src="images/menulijn.png" alt="">
-		</section>
-		<nav>
+		<nav class="navheader">
+			<a href="index.html"><img src="images/logo.png" alt="Logo band"></a>
 			<ul>
 				<li>
 					<a href="">Tour Dates</a>
@@ -52,14 +45,19 @@
 					<a href="">Official Store</a>
 				</li>
 			</ul>
+			<div class="burger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
 		</nav>
 	</header>
 
-	<main>
+	<main id="home">
 		<article id="newmusichome">
 			<!-- Hier komt een slider met het laatste nieuws. Er zit
 			een timer op waar om de zoveel tijd een nieuwe 'li' tevoorschijn komt -->
-			<section class="JSslider">
+			<section>
 				<ol>
 					<li>
 						<a href=""><img src="images/moralpaniccoverfull.jpeg" alt="Moral Panic Cover"></a>
@@ -78,6 +76,7 @@
 						</div>
 					</li>
 				</ol>
+				
 			</section>
 			<iframe src="https://www.youtube.com/embed/8E-anGEPhFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</article>
