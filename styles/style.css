@@ -12,10 +12,10 @@ body {
 }
 
 .wittebut {
-  padding: 10px 30px;
-  margin: 20px;
-  border-radius: 5px;
-  border: solid 1px black;
+  padding: .625em 1.875em;
+  margin: 1.25em;
+  border-radius: 0.3125em;
+  border: solid 0.0625em black;
   text-decoration: none;
   color: black;
   font-weight: 400;
@@ -24,10 +24,10 @@ body {
 }
 
 .zwartebut {
-  padding: 10px 30px;
-  margin: 20px;
-  border-radius: 5px;
-  border: solid 1px white;
+  padding: .625em 1.875em;
+  margin: 1.25em;
+  border-radius: 0.3125em;
+  border: solid 0.0625em white;
   text-decoration: none;
   background-color: white;
   color: black;
@@ -53,7 +53,7 @@ header img:first-of-type {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 3.44em;
   background-color: white;
   width: 100%;
 }
@@ -81,19 +81,19 @@ header img:first-of-type {
 }
 
 .burger div {
-  width: 25px;
-  height: 3px;
-  margin: 5px;
+  width: 1.5625em;
+  height: 0.1875em;
+  margin: 0.3125em;
   background: black;
 }
 
 /* Main opmaak */
 main {
-  padding-top: 50px;
+  padding-top: 3.125em;
 }
 
   /* New music tab */
-#newmusichome ol {
+#newmusichome ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -108,7 +108,7 @@ main {
 
 #newmusichome div {
  position: absolute;
- bottom: 20px;
+ bottom: 1.25em;
  display: flex;
  justify-content: space-evenly;
  flex-wrap: wrap;
@@ -133,7 +133,7 @@ iframe:first-of-type{
   flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 #releaseshome img {
@@ -141,7 +141,7 @@ iframe:first-of-type{
 }
 
 h2:first-of-type {
-font-size: 40px;
+font-size: 2.5em;
 }
 
 
@@ -152,24 +152,24 @@ font-size: 40px;
   justify-content: center;
   background-color: #232323;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 1.25em;
 }
 
-#tourdateshome ol {
+#tourdateshome ul {
   list-style: none;
-  padding: 0px 20px;
+  padding: 0 1.25em;
   margin: 0;
   width: 100%;
   text-align: center;
 }
 
 #tourdateshome li {
-  padding-bottom: 10px;
+  padding-bottom: .625em;
 }
 
 #tourdateshome li:nth-of-type(2) {
-  border-top: solid 2px #3a3a3a;
-  border-bottom: solid 2px #3a3a3a;
+  border-top: solid 0.125em #3a3a3a;
+  border-bottom: solid 0.125em #3a3a3a;
 }
 
 #tourdateshome a {
@@ -187,13 +187,13 @@ font-size: 40px;
   text-transform: uppercase;
   font: lighter;
   font-weight: 300;
-  margin: 20px;
+  margin: 1.25em;
 }
 
 #tourdateshome p:nth-child(n+2) {
   font-weight: 100;
   font: lighter;
-  margin: 20px;
+  margin: 1.25em;
 }
 
 
@@ -209,10 +209,10 @@ font-size: 40px;
 }
 
   /* slider opmaak voor nieuws en videos */
-#newshome .slider ol{
-  margin: 40px 0;
+#newshome .slider ul{
+  margin: 2.5em 0;
   width: 90%;
-  height: 330px;
+  height: 20.625em;
   display: flex;
   overflow-x: scroll;
   
@@ -225,21 +225,21 @@ font-size: 40px;
 }
 
 #newshome img {
-  width: 300px;
-  max-height: 170px;
+  width: 18.75em;
+  max-height: 10.625em;
 }
 
-#videoshome .slider ol {
-  margin: 40px 0;
+#videoshome .slider ul {
+  margin: 2.5em 0;
   width: 90%;
-  height: 300px;
+  height: 18.75em;
   display: flex;
   overflow-x: scroll;
 }
 
 #videoshome iframe {
-  width: 300px;
-  max-height: 170px;
+  width: 18.75em;
+  max-height: 10.625em;
 }
 
   /* Nieuwe releases tab */
@@ -281,7 +281,7 @@ font-size: 40px;
   letter-spacing: .4em;
 }
 
-#storehome ol {
+#storehome ul {
   list-style: none;
   padding: 0;
 }
@@ -316,7 +316,7 @@ font-size: 40px;
   background: lightgrey;
 }
 
-#newsarticles ol{
+#newsarticles ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -347,7 +347,7 @@ footer nav {
   
 }
 
-footer ol {
+footer ul {
   list-style: none;
   padding: 1em 1.5em;
   display: flex;
@@ -383,7 +383,7 @@ color: black;
     min-height: 20em;
   }
 
-  footer ol {
+  footer ul {
     margin: 0% 20%;
   }
 }
@@ -431,7 +431,7 @@ color: black;
     letter-spacing: .5em;
   }
 
-  #videoshome .slider ol {
+  #videoshome .slider ul {
     height: 100%;
   }
 
@@ -445,7 +445,7 @@ color: black;
     align-self: center;
   }
 
-  #storehome ol {
+  #storehome ul {
     display: flex;
   }
 
