@@ -113,7 +113,7 @@ X
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- !important is verboden! Probeer een andere manier te vinden (zie link robert)
+- !important is verboden! Probeer een andere manier te vinden (zie link robert - bron 4)
 - Probeer de header nog even verder mooi te maken
 
 </details>
@@ -170,7 +170,7 @@ De echte uitdaging was het scrollen over de website. Ik moest mijn hand anders p
 
 ### Stand van zaken
 Veel in detail de CSS gaan uitwerken en een beginsel gemaakt aan JS. Het hamburgermenu is af!! Nog de laatste dingetjes en details aan het uitwerken en dan zijn we wel klaar? Ik zit er nog aan te denken om nog een poging te doen tot een JS slider van de bovenste 2 elementen. Al is dit nog best een uitdaging
-Ook nog even mn code netter gemaakt. Alle PX omgezet naar EM of %. De OL's naar UL's omgetoverd en mijn classes/id's netter vernoemd :)
+Ook nog even mn code netter gemaakt. Alle PX omgezet naar EM of %. (zie bron 5) De OL's naar UL's omgetoverd en mijn classes/id's netter vernoemd :)
 
 
 ### Agenda voor meeting

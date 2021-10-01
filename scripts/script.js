@@ -6,7 +6,7 @@ console.log('haaai')
 // Let is een variabel wat wel kan veranderen (berekeningen adhv verschillende input)
 
 // JS voor burgermenu
-
+// Voor het animeren/gebruiken van het burgermenu heb ik een tutorial gebruikt (zie bron 1)
 // het const variabel noemen we burger en we halen het uit het document. Deze hoort bij de class .burger
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.navheader');
