@@ -23,6 +23,12 @@ body {
   text-align: center;
 }
 
+.wittebut:hover{
+  color: white;
+  background: darkblue;
+  transition: ease-in .3s;
+}
+
 .zwartebut {
   padding: .625em 1.875em;
   margin: 1.25em;
@@ -34,6 +40,13 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
+}
+
+.zwartebut:hover {
+  color: white;
+  background: darkblue;
+  transition: ease-in .3s;
+  border-color: darkblue;
 }
 
 
@@ -74,6 +87,13 @@ header img:first-of-type {
   color: black;
   letter-spacing: .1em;
   font-weight: 200;
+  padding: 1.5em .4em;
+}
+
+.navheader a:hover{
+  color: white;
+  background: darkblue;
+  transition: ease-in .3s;
 }
 
 .burger {
@@ -248,10 +268,6 @@ font-size: 2.5em;
   text-align: center;
 }
 
-.newreleases {
-  padding: 3em 2em;
-}
-
 .newreleases:first-of-type {
   background-color: lightgrey;
 }
@@ -262,10 +278,15 @@ font-size: 2.5em;
 
 .newreleases img {
   width: 80%;
+  margin: 3em 6em;
 }
   
 .hovervlak {
   display: none;
+}
+
+.newreleases img:hover{
+  
 }
   
 
