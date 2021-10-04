@@ -58,13 +58,14 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschetsen.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschetsen-01.png" width="375px" alt="breakdown van de hele nieuws pagina">
+<img src="images/breakdownschetsen-02.png" width="375px" alt="breakdown van de hele nieuws pagina">
+<img src="images/breakdownschetsen-03.png" width="375px" alt="breakdown van de hele nieuws pagina">
+<img src="images/breakdownschetsen-04.png" width="375px" alt="breakdown van de hele nieuws pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakdownschetsen-05.png" width="375px" alt="dynamisch deel - menu">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -200,11 +201,14 @@ Bovenstaand met robert besproken. Is een beetje eigen inbreng. Zie bron 6 voor r
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In het begin ging het super goed. De basis neerleggen qua html en css was zo gedaan en ik had in 3 dagen al een soorrt van website staan. Nog niet alles tot in de puntjes uitgewerkt maar dat maakt niet uit. Daarna met de preciezere opmaak ging het soms wat stroever. Maar door veel google te gebruiken en andere mensen om hulp te vragen, heb ik het allemaal op kunnen lossen. 
+Naarmate de laatste werkgroepen kwamen, had ik wel iets meer moeite om er nog aan te gaan zitten werken. Ik was alleen maar bezig met dezelfde probleempjes en het lukte me niet om ze op te lossen. Uiteindelijk heb ik nog gekozen om echt bij responsive te blijven. Javascript is erg leuk als het werkt, maar ik had meer behoefte aan die responsiveness. Hadden we meer tijd gehad en meer over javascript dingetjes geleerd, dan had ik nog wel een aantal dingetjes toe willen voegen. 
+Uiteindelijk heb ik nog met javascript een geanimeerd burgermenu gemaakt! Hier ben ik stiekem nog het meest trots op, omdat in het uitleg filmpje een andere manier werd gebruikt om de code te schrijven. Vervolgens heb ik heel goed gekeken wat alles nou betekende en er mijn eigen code uit kunnen halen. En het werkt gewoon!
+
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+<img src="images/eindresultaathome.png" width="375px" alt="eindresultaat home">
+<img src="images/eindresultaatnews.png" width="375px" alt="eindresultaat news">
 
 </details>
 

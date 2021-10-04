@@ -96,6 +96,11 @@ header img:first-of-type {
   transition: ease-in .3s;
 }
 
+button:first-of-type{
+  background: none;
+  border: none;
+}
+
 .burgerMenu {
   display: none;
   cursor: pointer;
