@@ -8,8 +8,8 @@ console.log('haaai')
 // JS voor burgermenu
 // Voor het animeren/gebruiken van het burgermenu heb ik een tutorial gebruikt (zie bron 1)
 // het const variabel noemen we burger en we halen het uit het document. Deze hoort bij de class .burger
-const burger = document.querySelector('.burger');
-const nav = document.querySelector('.navheader');
+const burger = document.querySelector('.burgerMenu');
+const nav = document.querySelector('.navHeader');
 
 // Naar voren halen van het menu
 

@@ -16,7 +16,7 @@
 	<header>
 		<!-- Voor het burgermenu en de header heb ik een tutorial gebruikt (zie bron 1) -->
 
-		<nav class="navheader">
+		<nav class="navHeader">
 			<a href="index.html"><img src="images/logo.png" alt="Logo band"></a>
 			<ul>
 				<li>
@@ -47,34 +47,39 @@
 					<a href="">Official Store</a>
 				</li>
 			</ul>
-			<div class="burger">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
+			<!-- Div om als container te gebruiken om de lijntjes voor het burgermenu in te zetten -->
+			<div class="burgerMenu">
+				<!-- divjes als lijntjes voor het menu (opgemaakt in css) -->
+				<div class="burgermenuLine1"></div>
+				<div class="burgermenuLine2"></div>
+				<div class="burgermenuLine3"></div>
 			</div>
 		</nav>
 	</header>
 
-	<main id="home">
-		<article id="newmusichome">
+	<main id="homepage">
+		<article id="newMusicHomepage">
 			<!-- Hier komt een slider met het laatste nieuws. Er zit
 			een timer op waar om de zoveel tijd een nieuwe 'li' tevoorschijn komt -->
 			<section>
 				<ul>
 					<li>
 						<a href=""><img src="images/moralpaniccoverfull.jpeg" alt="Moral Panic Cover"></a>
+						<!-- Container om de knoppen in te zetten voor over de de img heen
+						en vervolgens met position:absolute te verplaatsen -->
 						<div>
-							<a href="" class="zwartebut">Apple Music</a>
-							<a href="" class="zwartebut">Youtube</a>
-							<a href="" class="zwartebut">Spotify</a>
-							<a href="" class="zwartebut">Amazon</a>
+							<a href="" class="blackButton">Apple Music</a>
+							<a href="" class="blackButton">Youtube</a>
+							<a href="" class="blackButton">Spotify</a>
+							<a href="" class="blackButton">Amazon</a>
 						</div>
 					</li>
 
 					<li>
 						<a href=""><img src="images/futureprooffull.jpeg" alt="Futureproof Cover"></a>
+						
 						<div>
-							<a href="" class="zwartebut">Listen now</a>
+							<a href="" class="blackButton">Listen now</a>
 						</div>
 					</li>
 				</ul>
@@ -83,14 +88,14 @@
 			<iframe src="https://www.youtube.com/embed/8E-anGEPhFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</article>
 
-		<article id="releaseshome">
+		<article id="releasesHomepage">
 			<img src="images/moralpaniccoverfull.jpeg" alt="Moral Panic Cover Full">
 			<h2>Moral Panic II</h2>
-			<a href="" class="wittebut">Listen now</a>
-			<a href="" class="wittebut">See More Releases</a>
+			<a href="" class="whiteButton">Listen now</a>
+			<a href="" class="whiteButton">See More Releases</a>
 		</article>
 
-		<article id="tourdateshome">
+		<article id="tourdatesHomepage">
 			<!-- Overzicht van eerstvolgende tourdata. Je kan
 			per datum informatie zien en tickets kopen -->
 			<h2>Tour Dates</h2>
@@ -117,10 +122,10 @@
 				</li>
 			</ul>
 
-			<a href="" class="zwartebut">See more tour dates</a>
+			<a href="" class="blackButton">See more tour dates</a>
 		</article>
 
-		<article id="newshome">
+		<article id="newsHomepage">
 			<h2>News</h2>
 			<!-- Hier kan je een carousel vinden. In dit carousel kan je zelf
 			heen en weer scrollen met de laatste nieuwsartikelen. Als je er
@@ -164,10 +169,10 @@
 					</li>
 				</ul>
 			</section>
-			<a href="" class="wittebut">See more news</a>
+			<a href="" class="whiteButton">See more news</a>
 		</article>
 
-		<article id="videoshome">
+		<article id="videosHomepage">
 			<h2>Videos</h2>
 			<!-- Dit is een slider waar je zelf doorheen kan scrollen. In de slider
 			kan je de nieuwste video's vinden. Als je er op klikt ga je naar een
@@ -192,53 +197,41 @@
 			</section>
 		</article>
 
-		<article id="newreleaseshome">
-			<section class="newreleases">
+		<article id="newReleasesHomepage">
+			<section class="newReleasesCovers">
 				<img src="images/moralpaniccoverfull.jpeg" alt="Moral panic cover">
-					<!-- DIV wordt niet gezien tot er wordt gehovert (desktop) of
-					er wordt geklikt (mobile) op de section zelf -->
-				<div class="hovervlak">  
-					<h3>Miracle, Baby</h3>
-					<a href="">Listen now</a>
-				</div>
 			</section>
 
-			<section class="newreleases">
+			<section class="newReleasesCovers">
 				<img src="images/futureprooffull.jpeg" alt="Futureproof cover">
-				<!-- DIV wordt niet gezien tot er wordt gehovert (desktop) of
-					er wordt geklikt (mobile) op de section zelf -->
-				<div class="hovervlak">
-					<h3>Futureproof</h3>
-					<a href="">Listen now</a>
-				</div>
 			</section>
 		</article>
 
-		<article id="storehome">
+		<article id="storeHomepage">
 			<h2>Offical Nothing But Thieves Store</h2>
 			<ul>
 				<li>
 					<a href=""><img src="images/moralpanictee.jpeg" alt="Moral Panic Tee"></a>
 					<h3>Moral Panic II Tee</h3>
 					<p>$25.00</p>
-					<a href="" class="wittebut">Have a look</a>
+					<a href="" class="whiteButton">Have a look</a>
 				</li>
 
 				<li>
 					<a href=""><img src="images/futureprooftee.jpeg" alt="Futureproof Tee"></a>
 					<h3>Futureproof Tee</h3>
 					<p>$25.00</p>
-					<a href="" class="wittebut">Have a look</a>
+					<a href="" class="whiteButton">Have a look</a>
 				</li>
 
 				<li>
 					<a href=""><img src="images/mycomputertee.jpeg" alt="My Computer Tee"></a>
 					<h3>My computer Tee</h3>
 					<p>$25.00</p>
-					<a href="" class="wittebut">Have a look</a>
+					<a href="" class="whiteButton">Have a look</a>
 				</li>
 			</ul>
-			<a href="" class="wittebut">Visit the store</a>
+			<a href="" class="whiteButton">Visit the store</a>
 		</article>
 	</main>
 

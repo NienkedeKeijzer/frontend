@@ -180,10 +180,13 @@ X
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- ID's weghalen. Probeer meer met nth te kijken 
+Bovenstaand met Robert besproken: Is in deze use case niet nodig. Stel ik ga later een grotere website maken en meerdere articles gebruiken die dezelfde styling hebben, is het niet handig. *want een ID mag je maar 1x gebruiken* √
+- Zet bij elk divje wat het is en waarom het er staat √
+- Bepaalde class/id namen meer uitschrijven voor duidelijkheid 
+- articles/sections omdraaien √
+Bovenstaand met robert besproken. Is een beetje eigen inbreng. Zie bron 6 voor raadpleging
+
 
 </details>
 
@@ -221,6 +224,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. <a href='https://css-tricks.com/snippets/css/complete-guide-grid/'>CSS-tricks - Grid</a>
 4. <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity'>MDN Web Docs - Specificity</a>
 5. <a href='https://www.w3schools.com/tags/ref_pxtoemconversion.asp'>W3S - PX to EM</a>
+6. <a href='http://html5doctor.com/'>HTML5 Doctor</a>
 
 
 
